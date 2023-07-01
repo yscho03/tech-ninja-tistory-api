@@ -1,0 +1,9 @@
+.idea
+.venv
+.env
+.vscode
+*.log
+**/.ipynb_checkpoints/
+**/__pycache__/
+dist
+src/*.egg-info
