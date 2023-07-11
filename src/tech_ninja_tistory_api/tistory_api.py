@@ -35,7 +35,7 @@ class TistoryAPI:
         return params
 
     def create_simple_response(self, response: requests.Response) -> Dict[str, Any]:
-        return response.text
+        return json.loads(response.text)
 
     def create_raw_response(self, response):
         output = {

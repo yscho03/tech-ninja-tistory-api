@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="tech-ninja-tistory-api",
-    version="1.0.1",
+    version="1.0.4",
     author="yscho03",
     author_email="yscho03.developer@gmail.com",
     description="Tistory API Wrapper",
@@ -24,7 +24,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
     install_requires=[
-        "requests>=2.13",
+        "requests>=2.24",
         "urllib3>=1.26",
     ],    
     dist_dir='dist',    
